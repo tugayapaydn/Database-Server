@@ -1,0 +1,13 @@
+1 UPDATE TABLE SET Series_reference='TESTEDBY1', Data_value='TESTED-2BY1' WHERE Period='2001.03'
+1 SELECT DISTINCT Period, Series_reference, Data_value FROM TABLE;
+2 UPDATE TABLE SET Series_reference='TESTEDBY2', Data_value='TESTED-2BY2' WHERE Period='2002.03'
+2 SELECT DISTINCT Period, Series_reference, Data_value FROM TABLE;
+3 UPDATE TABLE SET Series_reference='TESTEDBY3', Data_value='TESTED-2BY3' WHERE Period='2003.03'
+3 SELECT DISTINCT Period, Series_reference, Data_value FROM TABLE;
+4 UPDATE TABLE SET Series_reference='TESTEDBY4', Data_value='TESTED-2BY4' WHERE Period='2004.03'
+4 SELECT DISTINCT Period, Series_reference, Data_value FROM TABLE;
+5 UPDATE TABLE SET Series_reference='TESTEDBY5', Data_value='TESTED-2BY5' WHERE Period='2005.03'
+5 SELECT DISTINCT Period, Series_reference, Data_value FROM TABLE;
+6 UPDATE TABLE SET Series_reference='TESTEDBY6', Data_value='TESTED-2BY6' WHERE Period='2006.03'
+6 SELECT DISTINCT Period, Series_reference, Data_value FROM TABLE;
+1 SELECT * FROM TABLE;
